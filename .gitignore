@@ -1,0 +1,27 @@
+.gradle/
+build/
+
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!gradlew
+!gradlew.bat
+
+# Java
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+*.jar
+
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.launch
+
+.DS_Store
+Thumbs.db
+
+out/
