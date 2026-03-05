@@ -15,6 +15,7 @@ public class Main extends Application {
         Button button = new Button("Click me");
         TextField textField = new TextField(); 
         button.setOnAction(e -> label.setText("Clicked!"));
+        button.setOnAction(e -> stage.setTitle(textField.getText()));
         
         button.setDisable(true);
         textField.textProperty().addListener((observable, oldValue, newValue) ->
